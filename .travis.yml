@@ -1,0 +1,16 @@
+language: go
+go:
+  - 1.8.3
+  - master
+notifications:
+  email:
+    recipients:
+      - 594115727@qq.com
+  on_success: change
+  on_failure: always
+install:
+before_install: 
+script:
+  - go build
+before_deploy: 
+deploy:

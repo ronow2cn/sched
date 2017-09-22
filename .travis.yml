@@ -11,6 +11,6 @@ notifications:
 install:
 before_install: 
 script:
-  - go build
+  - cd example && go build
 before_deploy: 
 deploy:

@@ -1,5 +1,5 @@
 # 一种主逻辑协程+后台协程的设计方案
-
+[![Build Status](https://travis-ci.org/ronow2cn/sched.svg?branch=master)](https://travis-ci.org/ronow2cn/sched)
 
 ## 主逻辑协程----loop
 
